@@ -76,7 +76,7 @@ const Search = () => {
 
 			<div className="grid grid-cols-1 py-2 mb-1">
 				<p className="font-bold text-2xl text-center mt-6 uppercase">
-					Find your favorite SLB player
+					Search & find your favorite SLB player
 				</p>
 				<span className="text-center py-2 mb-6">Season 2022/2023</span>
 
@@ -124,7 +124,7 @@ const Search = () => {
 							</div>
 
 							<div className="h-[110px]">
-								<p className="w-full font-300 text-center uppercase py-4 overflow-hidden sm:text-1xl md:text-3xl">
+								<p className="w-full font-300 text-center uppercase py-4 overflow-hidden sm:text-1xl md:text-3xl lg:text-[1.80rem] xl:text-[1.40rem]">
 									{player.name}
 								</p>
 							</div>
