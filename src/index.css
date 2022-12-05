@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@keyframes morph {
+    0% { background-color: lightgray; }
+    33% { background-color: #c30f0f; }
+    66% { background-color: #e05858; }
+    100% { background-color: #c30000; }
+}
+    
+#animated-div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    animation: morph 3s infinite;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 30px;
+    background-color: #C30000;
+    color: white;
+    cursor: pointer;
+}
+
+#footer {
+    padding: 2em 0;
+    background-color: #C30000;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}

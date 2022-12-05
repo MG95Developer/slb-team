@@ -1,0 +1,337 @@
+import ODYSSEAS from '../src/images/odysseas-vlachodimos-slb.jpeg';
+import HELTON from '../src/images/helton-leite-slb.jpeg';
+import SAMUEL from '../src/images/samuel-soares-slb.jpeg';
+import ANDRE from '../src/images/andre-almeida-slb.jpeg';
+import ANTONIO from '../src/images/antonio-silva-slb.jpeg';
+import BAH from '../src/images/alexander-bah-slb.jpeg';
+import BROOKS from '../src/images/brooks-slb.jpeg';
+import GILBERTO from '../src/images/gilberto-slb.jpeg';
+import GRIMALDO from '../src/images/grimaldo-slb.jpeg';
+import JOAOVICTOR from '../src/images/joao-victor-slb.jpeg';
+import LUCASVERISSIMO from '../src/images/lucas-verissimo-slb.jpeg';
+import RISTIC from '../src/images/mihailo-ristic-slb.jpeg';
+import MORATO from '../src/images/morato-slb.jpeg';
+import OTAMENDI from '../src/images/otamendi-slb.jpeg';
+import AURSNES from '../src/images/fredrik-aursnes-slb.jpeg';
+import CHIQUINHO from '../src/images/chiquinho-slb.jpeg';
+import DIOGO from '../src/images/diogo-goncalves-slb.jpeg';
+import DRAXLER from '../src/images/draxler-slb.jpeg';
+import ENZO from '../src/images/enzo-slb.jpeg';
+import FLORENTINO from '../src/images/florentino-slb.jpeg';
+import GILDIAS from '../src/images/gil-dias-slb.jpeg';
+import JOAOMARIO from '../src/images/joao-mario-slb.jpeg';
+import MOREIRA from '../src/images/diego-moreira-slb.jpeg';
+import NERES from '../src/images/neres-slb.jpeg';
+import PAULOBERNARDO from '../src/images/paulo-bernardo-slb.jpeg';
+import RAFA from '../src/images/rafa-slb.jpeg';
+import GONCALO from '../src/images/goncalo-ramos-slb.jpeg';
+import HENRIQUE from '../src/images/henrique-araujo-slb.jpeg';
+import MUSA from '../src/images/petar-musa-slb.jpeg';
+import PINHO from '../src/images/rodrigo-pinho-slb.jpeg';
+
+const SLB = {
+	playersMainData: [
+		{
+			id: 1,
+			photo: HELTON,
+			name: 'helton leite',
+			number: 77,
+			country: 'brazil',
+			position: 'goalkeeper',
+			DOB: '02/11/1990',
+			inBenficaSince: '2020',
+		},
+		{
+			id: 2,
+			photo: ODYSSEAS,
+			name: 'odysseas vlachodimos',
+			number: 99,
+			country: 'germany',
+			position: 'goalkeeper',
+			DOB: '26/04/1994',
+			inBenficaSince: '2018',
+		},
+		{
+			id: 3,
+			photo: SAMUEL,
+			name: 'samuel soares',
+			number: 24,
+			country: 'portugal',
+			position: 'goalkeeper',
+			DOB: '15/06/2002',
+			inBenficaSince: '2013',
+		},
+		{
+			id: 4,
+			photo: ANDRE,
+			name: 'André Almeida',
+			number: 34,
+			country: 'portugal',
+			position: 'Defender',
+			DOB: '09/10/1990',
+			inBenficaSince: '2011',
+		},
+		{
+			id: 5,
+			photo: ANTONIO,
+			name: 'António Silva',
+			number: 66,
+			country: 'portugal',
+			position: 'Defender',
+			DOB: '30/10/2003',
+			inBenficaSince: '2014',
+		},
+		{
+			id: 6,
+			photo: BAH,
+			name: 'Bah',
+			number: 6,
+			country: 'denmark',
+			position: 'Defender',
+			DOB: '09/12/1997',
+			inBenficaSince: '2022',
+		},
+		{
+			id: 7,
+			photo: BROOKS,
+			name: 'Brooks',
+			number: 25,
+			country: 'USA',
+			position: 'Defender',
+			DOB: '28/01/1993',
+			inBenficaSince: '2022',
+		},
+		{
+			id: 8,
+			photo: GILBERTO,
+			name: 'Gilberto',
+			number: 2,
+			country: 'BRAZIL',
+			position: 'Defender',
+			DOB: '07/03/1993',
+			inBenficaSince: '2022',
+		},
+		{
+			id: 9,
+			photo: GRIMALDO,
+			name: 'Grimaldo',
+			number: 3,
+			country: 'SPAIN',
+			position: 'Defender',
+			DOB: '20/09/1995',
+			inBenficaSince: '2016',
+		},
+		{
+			id: 10,
+			photo: JOAOVICTOR,
+			name: 'João victor',
+			number: 38,
+			country: 'BRAZIL',
+			position: 'Defender',
+			DOB: '17/07/1998',
+			inBenficaSince: '2022',
+		},
+		{
+			id: 11,
+			photo: LUCASVERISSIMO,
+			name: 'Lucas Veríssimo',
+			number: 4,
+			country: 'BRAZIL',
+			position: 'Defender',
+			DOB: '02/07/1995',
+			inBenficaSince: '2021',
+		},
+		{
+			id: 12,
+			photo: RISTIC,
+			name: 'Mihailo Ristic',
+			number: 23,
+			country: 'Serbia',
+			position: 'Defender',
+			DOB: '31/10/1995',
+			inBenficaSince: '2022',
+		},
+		{
+			id: 13,
+			photo: MORATO,
+			name: 'Morato',
+			number: 91,
+			country: 'BRAZIL',
+			position: 'Defender',
+			DOB: '30/06/2001',
+			inBenficaSince: '2019',
+		},
+		{
+			id: 14,
+			photo: OTAMENDI,
+			name: 'Otamendi',
+			number: 30,
+			country: 'Argentina',
+			position: 'Defender',
+			DOB: '12/02/1988',
+			inBenficaSince: '2020',
+		},
+		{
+			id: 15,
+			photo: AURSNES,
+			name: 'Fredrik Aursners',
+			number: 8,
+			country: 'NORWAY',
+			position: 'Midfielder',
+			DOB: '10/12/1995',
+			inBenficaSince: '2022',
+		},
+		{
+			id: 16,
+			photo: CHIQUINHO,
+			name: 'Chiquinho',
+			number: 22,
+			country: 'portugal',
+			position: 'Midfielder',
+			DOB: '19/07/1995',
+			inBenficaSince: '2019',
+		},
+		{
+			id: 17,
+			photo: DIOGO,
+			name: 'Diogo gonçalves',
+			number: 17,
+			country: 'portugal',
+			position: 'Midfielder',
+			DOB: '06/02/1997',
+			inBenficaSince: '2008',
+		},
+		{
+			id: 18,
+			photo: DRAXLER,
+			name: 'DRAXLER',
+			number: 93,
+			country: 'GERMANY',
+			position: 'Midfielder',
+			DOB: '20/09/1993',
+			inBenficaSince: '2022',
+		},
+		{
+			id: 19,
+			photo: ENZO,
+			name: 'ENZO',
+			number: 13,
+			country: 'Argentina',
+			position: 'Midfielder',
+			DOB: '17/01/2001',
+			inBenficaSince: '2022',
+		},
+		{
+			id: 20,
+			photo: FLORENTINO,
+			name: 'FLORENTINO',
+			number: 61,
+			country: 'portugal',
+			position: 'Midfielder',
+			DOB: '19/08/1998',
+			inBenficaSince: '2010',
+		},
+		{
+			id: 21,
+			photo: GILDIAS,
+			name: 'GIL DIAS',
+			number: 31,
+			country: 'portugal',
+			position: 'Midfielder',
+			DOB: '28/09/1996',
+			inBenficaSince: '2021',
+		},
+		{
+			id: 22,
+			photo: JOAOMARIO,
+			name: 'JOÃO MÁRIO',
+			number: 20,
+			country: 'portugal',
+			position: 'Midfielder',
+			DOB: '19/01/1993',
+			inBenficaSince: '2021',
+		},
+		{
+			id: 23,
+			photo: MOREIRA,
+			name: 'Moreira JR.',
+			number: 96,
+			country: 'portugal',
+			position: 'Midfielder',
+			DOB: '06/08/2004',
+			inBenficaSince: '2020',
+		},
+		{
+			id: 24,
+			photo: NERES,
+			name: 'Neres',
+			number: 7,
+			country: 'brazil',
+			position: 'Midfielder',
+			DOB: '03/03/1997',
+			inBenficaSince: '2022',
+		},
+		{
+			id: 25,
+			photo: PAULOBERNARDO,
+			name: 'Paulo B.',
+			number: 55,
+			country: 'portugal',
+			position: 'Midfielder',
+			DOB: '24/01/2002',
+			inBenficaSince: '2010',
+		},
+		{
+			id: 26,
+			photo: RAFA,
+			name: 'RAFA',
+			number: 27,
+			country: 'portugal',
+			position: 'Midfielder',
+			DOB: '17/05/1993',
+			inBenficaSince: '2016',
+		},
+		{
+			id: 27,
+			photo: GONCALO,
+			name: 'Gonçalo Ramos',
+			number: 88,
+			country: 'portugal',
+			position: 'Forward',
+			DOB: '20/06/2001',
+			inBenficaSince: '2011',
+		},
+		{
+			id: 28,
+			photo: HENRIQUE,
+			name: 'Henrique Araújo',
+			number: 39,
+			country: 'portugal',
+			position: 'Forward',
+			DOB: '19/01/2002',
+			inBenficaSince: '2018',
+		},
+		{
+			id: 29,
+			photo: MUSA,
+			name: 'MUSA',
+			number: 33,
+			country: 'croatia',
+			position: 'Forward',
+			DOB: '04/03/1998',
+			inBenficaSince: '2022',
+		},
+		{
+			id: 30,
+			photo: PINHO,
+			name: 'Rodrigo Pinho',
+			number: 18,
+			country: 'brazil',
+			position: 'Forward',
+			DOB: '30/01/1991',
+			inBenficaSince: '2021',
+		},
+	],
+};
+
+export default SLB;

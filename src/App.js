@@ -1,7 +1,18 @@
+import React, { useEffect } from 'react';
+import Footer from './components/Footer';
+
+import Search from './Search';
+
 function App() {
+	/* SET PAGE TITLE */
+	useEffect(() => {
+		document.title = 'SLB | 2022-2023';
+	}, []);
+
 	return (
 		<>
-			<p className="font-bold text-3xl">hello</p>
+			<Search />
+			<Footer />
 		</>
 	);
 }
